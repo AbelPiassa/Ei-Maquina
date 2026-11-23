@@ -1,0 +1,2 @@
+# Dependência de desenvolvimento. O aplicativo funciona sem instalar pacotes pip.
+pytest>=8,<10

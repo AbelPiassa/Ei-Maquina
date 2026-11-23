@@ -1,0 +1,61 @@
+# Python, testes e ferramentas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Configurações pessoais, credenciais e logs
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+ai_config.json
+*.secret
+*.key
+
+# Bancos de dados e informações privadas
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db-shm
+*.db-wal
+*.sqlite-wal
+*.sqlite-shm
+media/
+backups/
+backup/
+data/
+dados/
+
+# IA local: binários, modelos e downloads
+*.gguf
+*.ggml
+*.safetensors
+*.bin
+*.part
+llama.cpp/
+modelos/
+models/
+ia-local/
+
+# Arquivos locais de desenvolvimento
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Distribuições zip locais
+Ei_Maquina_Etapa_*.zip

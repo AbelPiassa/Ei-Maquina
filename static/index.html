@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Ei, Máquina! — Organizador de Estudos</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <button class="brand" data-page="home" aria-label="Voltar à Visão Geral"><span class="brand-mark">✦</span><span>Ei, Máquina!</span></button>
+      <nav id="main-nav" aria-label="Navegação principal">
+        <button data-page="home" class="nav-button active">Visão Geral</button>
+        <button data-page="courses" class="nav-button">Cursos</button>
+        <button data-page="agenda" class="nav-button">Agenda</button>
+        <button data-page="notes" class="nav-button">Anotações</button>
+        <button data-page="history" class="nav-button">Histórico</button>
+      </nav>
+      <div class="top-actions">
+        <button class="icon-button" data-page="priorities" aria-label="Prioridades" title="Prioridades">☑</button>
+        <button class="icon-button" data-page="timer" aria-label="Cronômetro" title="Cronômetro">◷</button>
+        <button class="icon-button" data-page="settings" aria-label="Configurações" title="Configurações">⚙</button>
+      </div>
+    </div>
+  </header>
+  <main class="app-shell">
+    <div id="view" aria-live="polite"></div>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <div id="modal" class="modal-backdrop" hidden></div>
+</body>
+</html>
