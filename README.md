@@ -87,7 +87,7 @@ Prepare o modelo local (o instalador apresenta o destino e pede confirmação an
 ./iniciar.sh
 ```
 
-A configuração padrão usa **Qwen3 1.7B Q4_K_M** via `llama.cpp`, compilado sem AVX2 para funcionar em processadores mais antigos. O download do modelo é de aproximadamente **1,28 GB** e não está incluído no repositório. **O desempenho no i5-2500K ainda precisa ser medido no hardware real.**
+A configuração padrão usa **Qwen3 1.7B Q4_K_M** via `llama.cpp`, compilado sem AVX2 para funcionar em processadores mais antigos. O download do modelo é de aproximadamente **1,28 GB** e não está incluído no repositório. 
 
 O processo de IA é iniciado somente quando necessário e desligado após inatividade; sem a IA, o organizador continua funcionando.
 
@@ -143,6 +143,4 @@ O foco atual é preservar a versão que funciona antes de implementar voz e recu
 
 **Licença:** ainda não foi escolhida. A publicação do código não concede automaticamente permissão de reutilização; definir uma licença é uma decisão separada do autor.
 
-## Publicar no GitHub
 
-Siga o [guia de publicação](docs/PUBLICAR-NO-GITHUB.md) para criar um repositório vazio, revisar os arquivos e fazer o primeiro `push`. **Não execute `git add` na sua pasta de dados pessoais.**
