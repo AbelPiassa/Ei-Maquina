@@ -10,7 +10,7 @@ Cursos • Anotações • Histórico • Agenda • Prioridades • IA local op
 
 ![Dashboard da Ei, Máquina! no tema claro lilás](docs/previews/dashboard-claro.png)
 
-[Tema escuro](docs/previews/dashboard-escuro.png) · [Protótipo editável no Figma](https://www.figma.com/design/E8DpD9uLAz39GHap6SkRh2)
+[Tema escuro](docs/previews/dashboard-escuro.png) 
 
 </div>
 
